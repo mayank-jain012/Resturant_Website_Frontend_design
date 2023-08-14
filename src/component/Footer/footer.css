@@ -1,0 +1,133 @@
+.app__footers {
+    background: var(--color-black);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.app__footers-contactus {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+}
+
+.app__footers-contactus h4 {
+    color: var(--color-golden);
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+}
+
+.app__footers-contactus p {
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 0.25rem;
+    line-height: 30px;
+}
+
+.app__footers-gerchit {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-top: -1rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+
+}
+
+.app__footers-gerchit h1 {
+    font-size: 35px;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.app__footers-gerchit p {
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 0.25rem;
+    line-height: 30px;
+}
+
+.app__footers-workinghours {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 2rem;
+    align-items: center;
+}
+
+.app__footers-workinghours h4 {
+    color: var(--color-golden);
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+}
+
+.app__footers-workinghours p {
+    font-size: 20px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom: 0.25rem;
+    line-height: 30px;
+}
+
+@media screen and (max-width:1500px) {
+
+    .app__footers-contactus p {
+        font-size: 15px;
+        letter-spacing: 0.04em;
+        align-items: center;
+        text-align: center;
+    }
+
+    .app__footers-gerchit p {
+        font-size: 15px;
+        letter-spacing: 0.04em;
+        align-items: center;
+        text-align: center;
+    }
+
+    .app__footers-workinghours p {
+        font-size: 15px;
+        letter-spacing: 0.04em;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .app__footers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
+
+    .app__footers-contactus {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    .app__footers-gerchit {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .app__footers-workinghours {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+}
